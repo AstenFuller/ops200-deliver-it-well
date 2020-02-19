@@ -37,3 +37,7 @@ jobs:
 
       # run tests!
       - run: yarn test
+
+      deploy-to-heroku:
+        app-name: $HEROKU_APP_NAME
+        
